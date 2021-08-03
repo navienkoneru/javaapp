@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @EnableAutoConfiguration
 public class HelloWorldController {
 //@RequestMapping("/hello/palek")
-@RequestMapping("/mi")
+@RequestMapping("/health")
 @ResponseBody
 public String sayHello() {
-return "Welcome to India..!!!";
+return "Welcome to Tollywood..!!!";
 }
 }
